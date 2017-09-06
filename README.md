@@ -1,4 +1,4 @@
-# mintuishow
+# mintuiExample
 
 > A Vue.js project
 
