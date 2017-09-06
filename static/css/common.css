@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none
+}
+body{
+	font-size: 12px;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{/*去除a标签背景色*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+.mint-swipe .mint-swipe-indicator.is-active {/*修改swipe下方圆点颜色*/
+    background:#000 !important;
+    opacity: .6;
+}
+.page-title {
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    line-height: 1;
+}
+/* .mint-tab-container-item{
+    padding-bottom: .55rem;
+} */
+#app{
+    padding-top: 40px;
+}
+/* .mint-cell{
+    border-bottom:.5px solid #ccc;
+}
+.mint-cell:last-child{
+    background: none;
+} */
+.mint-cell-wrapper{
+    background: none;
+    border-bottom:.5px solid #ccc;
+}
+.mint-spinner-fading-circle {/*loading图标居中*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.mint-header-title{
+    font-size:16px
+}
+.mint-cell-value {
+    flex: 2.5;
+    position: relative;
+}
